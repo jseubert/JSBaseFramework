@@ -12,6 +12,42 @@
 		9575BD671F5F8C5000ADF929 /* JSBaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9575BD591F5F8C5000ADF929 /* JSBaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9575BD731F5F8D0500ADF929 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 9575BD711F5F8D0500ADF929 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9575BD741F5F8D0500ADF929 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575BD721F5F8D0500ADF929 /* UIColor+Hex.m */; };
+		9578D9621F60863200285F72 /* FormatUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D9601F60863200285F72 /* FormatUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D9631F60863200285F72 /* FormatUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D9611F60863200285F72 /* FormatUtils.m */; };
+		9578D9671F60866E00285F72 /* DeviceUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D9651F60866E00285F72 /* DeviceUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D9681F60866E00285F72 /* DeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D9661F60866E00285F72 /* DeviceUtils.m */; };
+		9578D96C1F60869000285F72 /* DateUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D96A1F60869000285F72 /* DateUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D96D1F60869000285F72 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D96B1F60869000285F72 /* DateUtils.m */; };
+		9578D9761F6086B300285F72 /* UIView+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D96E1F6086B300285F72 /* UIView+Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D9771F6086B300285F72 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D96F1F6086B300285F72 /* UIView+Size.m */; };
+		9578D9781F6086B300285F72 /* NSString+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D9701F6086B300285F72 /* NSString+Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D9791F6086B300285F72 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D9711F6086B300285F72 /* NSString+Size.m */; };
+		9578D97A1F6086B300285F72 /* UILabel+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D9721F6086B300285F72 /* UILabel+Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D97B1F6086B300285F72 /* UILabel+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D9731F6086B300285F72 /* UILabel+Size.m */; };
+		9578D97C1F6086B300285F72 /* UIFont+Defaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D9741F6086B300285F72 /* UIFont+Defaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D97D1F6086B300285F72 /* UIFont+Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D9751F6086B300285F72 /* UIFont+Defaults.m */; };
+		9578D9801F6086BE00285F72 /* UIViewController+ApplicationStates.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D97E1F6086BE00285F72 /* UIViewController+ApplicationStates.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D9811F6086BE00285F72 /* UIViewController+ApplicationStates.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D97F1F6086BE00285F72 /* UIViewController+ApplicationStates.m */; };
+		9578D9841F6086C900285F72 /* UIViewController+Alerts.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D9821F6086C900285F72 /* UIViewController+Alerts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D9851F6086C900285F72 /* UIViewController+Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D9831F6086C900285F72 /* UIViewController+Alerts.m */; };
+		9578D9891F6086E700285F72 /* BaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D9871F6086E700285F72 /* BaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D98A1F6086E700285F72 /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D9881F6086E700285F72 /* BaseObject.m */; };
+		9578D9CF1F6088D200285F72 /* BasicTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D9CD1F6088D200285F72 /* BasicTextViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D9D01F6088D200285F72 /* BasicTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D9CE1F6088D200285F72 /* BasicTextViewController.m */; };
+		9578D9DC1F6088E100285F72 /* CircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D9D21F6088E000285F72 /* CircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D9DD1F6088E100285F72 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D9D31F6088E000285F72 /* CircleView.m */; };
+		9578D9DE1F6088E100285F72 /* CountingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D9D41F6088E000285F72 /* CountingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D9DF1F6088E100285F72 /* CountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D9D51F6088E000285F72 /* CountingLabel.m */; };
+		9578D9E01F6088E100285F72 /* TableViewSectionHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D9D61F6088E100285F72 /* TableViewSectionHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D9E11F6088E100285F72 /* TableViewSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D9D71F6088E100285F72 /* TableViewSectionHeader.m */; };
+		9578D9E21F6088E100285F72 /* TutorialView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D9D81F6088E100285F72 /* TutorialView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D9E31F6088E100285F72 /* TutorialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D9D91F6088E100285F72 /* TutorialView.m */; };
+		9578D9E41F6088E100285F72 /* LabelInView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D9DA1F6088E100285F72 /* LabelInView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D9E51F6088E100285F72 /* LabelInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D9DB1F6088E100285F72 /* LabelInView.m */; };
+		9578D9EA1F60890A00285F72 /* JSURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D9E81F60890A00285F72 /* JSURLSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D9EB1F60890A00285F72 /* JSURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D9E91F60890A00285F72 /* JSURLSession.m */; };
+		9578D9EE1F6089FF00285F72 /* UIColor+Defaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578D9EC1F6089FF00285F72 /* UIColor+Defaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9578D9EF1F6089FF00285F72 /* UIColor+Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578D9ED1F6089FF00285F72 /* UIColor+Defaults.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +69,42 @@
 		9575BD661F5F8C5000ADF929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9575BD711F5F8D0500ADF929 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		9575BD721F5F8D0500ADF929 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		9578D9601F60863200285F72 /* FormatUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormatUtils.h; sourceTree = "<group>"; };
+		9578D9611F60863200285F72 /* FormatUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormatUtils.m; sourceTree = "<group>"; };
+		9578D9651F60866E00285F72 /* DeviceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceUtils.h; sourceTree = "<group>"; };
+		9578D9661F60866E00285F72 /* DeviceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceUtils.m; sourceTree = "<group>"; };
+		9578D96A1F60869000285F72 /* DateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtils.h; sourceTree = "<group>"; };
+		9578D96B1F60869000285F72 /* DateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtils.m; sourceTree = "<group>"; };
+		9578D96E1F6086B300285F72 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		9578D96F1F6086B300285F72 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		9578D9701F6086B300285F72 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		9578D9711F6086B300285F72 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		9578D9721F6086B300285F72 /* UILabel+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Size.h"; sourceTree = "<group>"; };
+		9578D9731F6086B300285F72 /* UILabel+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Size.m"; sourceTree = "<group>"; };
+		9578D9741F6086B300285F72 /* UIFont+Defaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Defaults.h"; sourceTree = "<group>"; };
+		9578D9751F6086B300285F72 /* UIFont+Defaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Defaults.m"; sourceTree = "<group>"; };
+		9578D97E1F6086BE00285F72 /* UIViewController+ApplicationStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ApplicationStates.h"; sourceTree = "<group>"; };
+		9578D97F1F6086BE00285F72 /* UIViewController+ApplicationStates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ApplicationStates.m"; sourceTree = "<group>"; };
+		9578D9821F6086C900285F72 /* UIViewController+Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alerts.h"; sourceTree = "<group>"; };
+		9578D9831F6086C900285F72 /* UIViewController+Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alerts.m"; sourceTree = "<group>"; };
+		9578D9871F6086E700285F72 /* BaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseObject.h; sourceTree = "<group>"; };
+		9578D9881F6086E700285F72 /* BaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseObject.m; sourceTree = "<group>"; };
+		9578D9CD1F6088D200285F72 /* BasicTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicTextViewController.h; sourceTree = "<group>"; };
+		9578D9CE1F6088D200285F72 /* BasicTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicTextViewController.m; sourceTree = "<group>"; };
+		9578D9D21F6088E000285F72 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		9578D9D31F6088E000285F72 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		9578D9D41F6088E000285F72 /* CountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountingLabel.h; sourceTree = "<group>"; };
+		9578D9D51F6088E000285F72 /* CountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountingLabel.m; sourceTree = "<group>"; };
+		9578D9D61F6088E100285F72 /* TableViewSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewSectionHeader.h; sourceTree = "<group>"; };
+		9578D9D71F6088E100285F72 /* TableViewSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewSectionHeader.m; sourceTree = "<group>"; };
+		9578D9D81F6088E100285F72 /* TutorialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialView.h; sourceTree = "<group>"; };
+		9578D9D91F6088E100285F72 /* TutorialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialView.m; sourceTree = "<group>"; };
+		9578D9DA1F6088E100285F72 /* LabelInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelInView.h; sourceTree = "<group>"; };
+		9578D9DB1F6088E100285F72 /* LabelInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelInView.m; sourceTree = "<group>"; };
+		9578D9E81F60890A00285F72 /* JSURLSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSURLSession.h; sourceTree = "<group>"; };
+		9578D9E91F60890A00285F72 /* JSURLSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSURLSession.m; sourceTree = "<group>"; };
+		9578D9EC1F6089FF00285F72 /* UIColor+Defaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Defaults.h"; sourceTree = "<group>"; };
+		9578D9ED1F6089FF00285F72 /* UIColor+Defaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Defaults.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +147,11 @@
 		9575BD581F5F8C5000ADF929 /* JSBaseFramework */ = {
 			isa = PBXGroup;
 			children = (
+				9578D9CB1F6088BF00285F72 /* GenericClasses */,
+				9578D9691F60867100285F72 /* Utils */,
 				9575BD701F5F8CF500ADF929 /* Categories */,
+				9578D9861F6086DB00285F72 /* Models */,
+				9578D9E71F6088F800285F72 /* Networking */,
 				9575BD591F5F8C5000ADF929 /* JSBaseFramework.h */,
 				9575BD5A1F5F8C5000ADF929 /* Info.plist */,
 			);
@@ -96,8 +172,88 @@
 			children = (
 				9575BD711F5F8D0500ADF929 /* UIColor+Hex.h */,
 				9575BD721F5F8D0500ADF929 /* UIColor+Hex.m */,
+				9578D9EC1F6089FF00285F72 /* UIColor+Defaults.h */,
+				9578D9ED1F6089FF00285F72 /* UIColor+Defaults.m */,
+				9578D96E1F6086B300285F72 /* UIView+Size.h */,
+				9578D96F1F6086B300285F72 /* UIView+Size.m */,
+				9578D9701F6086B300285F72 /* NSString+Size.h */,
+				9578D9711F6086B300285F72 /* NSString+Size.m */,
+				9578D9721F6086B300285F72 /* UILabel+Size.h */,
+				9578D9731F6086B300285F72 /* UILabel+Size.m */,
+				9578D9741F6086B300285F72 /* UIFont+Defaults.h */,
+				9578D9751F6086B300285F72 /* UIFont+Defaults.m */,
+				9578D97E1F6086BE00285F72 /* UIViewController+ApplicationStates.h */,
+				9578D97F1F6086BE00285F72 /* UIViewController+ApplicationStates.m */,
+				9578D9821F6086C900285F72 /* UIViewController+Alerts.h */,
+				9578D9831F6086C900285F72 /* UIViewController+Alerts.m */,
 			);
 			name = Categories;
+			sourceTree = "<group>";
+		};
+		9578D9691F60867100285F72 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9578D96A1F60869000285F72 /* DateUtils.h */,
+				9578D96B1F60869000285F72 /* DateUtils.m */,
+				9578D9601F60863200285F72 /* FormatUtils.h */,
+				9578D9611F60863200285F72 /* FormatUtils.m */,
+				9578D9651F60866E00285F72 /* DeviceUtils.h */,
+				9578D9661F60866E00285F72 /* DeviceUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		9578D9861F6086DB00285F72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9578D9871F6086E700285F72 /* BaseObject.h */,
+				9578D9881F6086E700285F72 /* BaseObject.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9578D9CB1F6088BF00285F72 /* GenericClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9578D9D11F6088D600285F72 /* Views */,
+				9578D9CC1F6088C800285F72 /* ViewControllers */,
+			);
+			name = GenericClasses;
+			sourceTree = "<group>";
+		};
+		9578D9CC1F6088C800285F72 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9578D9CD1F6088D200285F72 /* BasicTextViewController.h */,
+				9578D9CE1F6088D200285F72 /* BasicTextViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9578D9D11F6088D600285F72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9578D9D21F6088E000285F72 /* CircleView.h */,
+				9578D9D31F6088E000285F72 /* CircleView.m */,
+				9578D9D41F6088E000285F72 /* CountingLabel.h */,
+				9578D9D51F6088E000285F72 /* CountingLabel.m */,
+				9578D9D61F6088E100285F72 /* TableViewSectionHeader.h */,
+				9578D9D71F6088E100285F72 /* TableViewSectionHeader.m */,
+				9578D9D81F6088E100285F72 /* TutorialView.h */,
+				9578D9D91F6088E100285F72 /* TutorialView.m */,
+				9578D9DA1F6088E100285F72 /* LabelInView.h */,
+				9578D9DB1F6088E100285F72 /* LabelInView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9578D9E71F6088F800285F72 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9578D9E81F60890A00285F72 /* JSURLSession.h */,
+				9578D9E91F60890A00285F72 /* JSURLSession.m */,
+			);
+			name = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,7 +263,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9578D9891F6086E700285F72 /* BaseObject.h in Headers */,
+				9578D97A1F6086B300285F72 /* UILabel+Size.h in Headers */,
+				9578D9761F6086B300285F72 /* UIView+Size.h in Headers */,
+				9578D9801F6086BE00285F72 /* UIViewController+ApplicationStates.h in Headers */,
+				9578D9781F6086B300285F72 /* NSString+Size.h in Headers */,
+				9578D9671F60866E00285F72 /* DeviceUtils.h in Headers */,
+				9578D97C1F6086B300285F72 /* UIFont+Defaults.h in Headers */,
+				9578D96C1F60869000285F72 /* DateUtils.h in Headers */,
+				9578D9841F6086C900285F72 /* UIViewController+Alerts.h in Headers */,
 				9575BD731F5F8D0500ADF929 /* UIColor+Hex.h in Headers */,
+				9578D9621F60863200285F72 /* FormatUtils.h in Headers */,
+				9578D9DC1F6088E100285F72 /* CircleView.h in Headers */,
+				9578D9E41F6088E100285F72 /* LabelInView.h in Headers */,
+				9578D9DE1F6088E100285F72 /* CountingLabel.h in Headers */,
+				9578D9CF1F6088D200285F72 /* BasicTextViewController.h in Headers */,
+				9578D9E21F6088E100285F72 /* TutorialView.h in Headers */,
+				9578D9EA1F60890A00285F72 /* JSURLSession.h in Headers */,
+				9578D9EE1F6089FF00285F72 /* UIColor+Defaults.h in Headers */,
+				9578D9E01F6088E100285F72 /* TableViewSectionHeader.h in Headers */,
 				9575BD671F5F8C5000ADF929 /* JSBaseFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +386,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9578D97B1F6086B300285F72 /* UILabel+Size.m in Sources */,
+				9578D9851F6086C900285F72 /* UIViewController+Alerts.m in Sources */,
+				9578D9631F60863200285F72 /* FormatUtils.m in Sources */,
+				9578D9771F6086B300285F72 /* UIView+Size.m in Sources */,
+				9578D9E11F6088E100285F72 /* TableViewSectionHeader.m in Sources */,
+				9578D96D1F60869000285F72 /* DateUtils.m in Sources */,
+				9578D9EF1F6089FF00285F72 /* UIColor+Defaults.m in Sources */,
+				9578D9E51F6088E100285F72 /* LabelInView.m in Sources */,
+				9578D9EB1F60890A00285F72 /* JSURLSession.m in Sources */,
+				9578D9DF1F6088E100285F72 /* CountingLabel.m in Sources */,
+				9578D9811F6086BE00285F72 /* UIViewController+ApplicationStates.m in Sources */,
+				9578D9E31F6088E100285F72 /* TutorialView.m in Sources */,
+				9578D9D01F6088D200285F72 /* BasicTextViewController.m in Sources */,
+				9578D97D1F6086B300285F72 /* UIFont+Defaults.m in Sources */,
+				9578D9DD1F6088E100285F72 /* CircleView.m in Sources */,
+				9578D98A1F6086E700285F72 /* BaseObject.m in Sources */,
 				9575BD741F5F8D0500ADF929 /* UIColor+Hex.m in Sources */,
+				9578D9791F6086B300285F72 /* NSString+Size.m in Sources */,
+				9578D9681F60866E00285F72 /* DeviceUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
